@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Monaco, sans-serif;
+}
+
+.App {
+  /* margin-top: 20px; */
+  /* width: fit-content; */
+  height: 80dvh;
+}
+
+.inputContainer {
+
+  position:bottom;
+  display: absolute;
+  align-items: baseline;
+  gap: 5px;
+  /* overflow-y: scroll;
+  scroll-behavior: smooth; */
+}
+
+.inputContainer > span {
+  margin-top: 5px;
+}
+
+
